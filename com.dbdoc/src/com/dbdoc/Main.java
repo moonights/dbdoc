@@ -19,8 +19,8 @@ import com.dbdoc.utils.FreemarkerUtils;
  */
 public class Main {
 	public static final Logger log = Logger.getLogger(Main.class); 
-	public static final String TEMPLEATE_DEFAUTL="template/db_template_default.xml";
-	public static final String OUTER_default="c:\\temp-output\\db_document_default.doc";
+	public static final String TEMPLEATE_DEFAUTL="template/dbdoc_siample.xml";
+	public static final String OUTER_default="c:\\temp-output\\dbdoc_siample.doc";
 	
 	public static void main(String args[]) throws IOException{
 		log.info("<<<<<<<<<<<<<<<<<<<数据库文档生成开始>>>>>>>>>>>>>>>>>>>>>");
